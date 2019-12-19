@@ -6,11 +6,12 @@ Discrete choice models with several different probability distributions
 2. Environment setup (for instance with conda)
 ```conda env create -n [ENV_NAME] --file requirements.txt```
 3. Run the models:
-``` from src.dcm import Logit
+``` 
+from src.dcm import Logit
     
-    clf = Logit()
-    clf.fit(X,y)
+clf = Logit()
+clf.fit(X,y)
     
-    y_pred = clf.predict(X)
+y_pred = clf.predict(X)
     
     
