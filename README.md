@@ -7,7 +7,7 @@ Discrete choice models with several different probability distributions
 ```conda env create -n [ENV_NAME] --file requirements.txt```
 3. Run the models:
 ``` 
-from src.dcm import Logit
+from src.dcm import Logit, Probit, Cauchit, Gompit
     
 clf = Logit()
 clf.fit(X,y)
